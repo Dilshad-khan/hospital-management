@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hospital-management"
+    }
+  },
+  "defaultProject": "hospital-management",
+  "cli": {
+    "analytics": false
+  }
 }
