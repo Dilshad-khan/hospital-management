@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  background: aqua;
+  height: 10px;
+  padding: 80px 2px;
+  border-radius: 0 0 150% 0px;
+}
+.header img {
+  flex-direction: row;
+  margin-left: 75%;
+  /* float: right; */
+  width: 200px;
+  height: 200px;
+  margin-top: 0px;
+}
+
+.header p {
+  flex-direction: row;
+  /* float: left; */
+  margin-left: 5px;
+}

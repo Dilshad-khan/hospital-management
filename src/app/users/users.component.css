@@ -1,0 +1,23 @@
+.usersContainer {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  padding: 15px;
+}
+
+/* .panel {
+  flex-direction: row;
+  width: 450px;
+  height: 450px;
+  margin: 10px;
+  border-radius: 25px;
+  box-shadow: -3px -3px 5px #ffffff70, 3px 3px 15px #00000070; /*for top left side x axis and y axis and blur radius and color, and another for black and 70  is alpha value of color */
+  /* cursor: pointer; */
+  /* justify-content: center; */
+/* } */ 
+
+/* .panel:hover {
+  box-shadow: inset -3px -3px 5px #ffffff70, inset 3px 3px 15px #00000070;
+} */
+
+

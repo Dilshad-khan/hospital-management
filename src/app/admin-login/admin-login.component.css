@@ -1,0 +1,22 @@
+.formContainer {
+  /* justify-content: center; */
+  margin: 20px 50%;
+}
+
+.notAnUser {
+  display: flex;
+}
+
+.admin-btn {
+  padding: 5px;
+  background-color: rgb(59, 59, 255);
+  flex-direction: row;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.register {
+  flex-direction: row;
+  font-size: 21px;
+  font-weight: bold;
+}

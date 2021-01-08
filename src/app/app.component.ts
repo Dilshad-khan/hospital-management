@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hospital-management';
+
+  panel=true
+
+  changeBlock(){
+    this.panel=false
+  }
 }

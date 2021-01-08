@@ -1,1 +1,12 @@
-<h1>Welcome to Star Hospital</h1>
+<div>
+  <app-header></app-header>
+  <div *ngIf="panel; else elseBlock">
+    <app-users (click)="changeBlock()"></app-users>
+  </div>
+  <app-register></app-register>
+  <ng-template #elseBlock>
+    <router-outlet  ></router-outlet>
+  </ng-template>
+
+  <app-footer></app-footer>
+</div>

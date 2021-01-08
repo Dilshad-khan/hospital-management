@@ -1,0 +1,26 @@
+
+<div class="formContainer">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
+<div class="field">
+    <label for="username">Username</label>
+    <input type="text" formControlName="username" name="username" placeholder="Enter Username">
+</div>
+<div class="field">
+    <label for="username">Password</label>
+    <input type="password" formControlName="password" name="username" placeholder="Enter Password">
+</div>
+<div class="notAnUser">
+    <button type="submit" class="admin-btn">Signin</button>
+    <p class="register">
+      
+    </p>
+</div>
+
+    </form>
+</div>
+
+
+<!-- if it is true then admin panel -->
+<!-- Register now:- Register component:-
+if register is sucessfull then back to login component
+then  -->          
